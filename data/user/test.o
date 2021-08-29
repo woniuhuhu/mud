@@ -1,2 +1,2 @@
 #/mudcore/system/object/user.c
-dbase (["last_saved_at":1630227429,"gender":"男性","last_login_at":1630227429,"login_times":15,"exp":0,"name":"哈哈","birthday":1630221748,"lv":1,"id":"test","last_login_ip":"127.0.0.1",])
+dbase (["last_saved_at":1630239976,"gender":"男性","last_login_at":1630239976,"login_times":16,"name":"哈哈","exp":0,"birthday":1630221748,"lv":1,"id":"test","last_login_ip":"127.0.0.1",])
