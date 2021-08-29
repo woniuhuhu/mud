@@ -1,0 +1,850 @@
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:01:56 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:10:21 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:19:51 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:27:29 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:32:03 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:34:39 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(string)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (string)"ff"
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            "ff"
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:38:40 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:40:11 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:43:53 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])
+──────────────<Bugs Report>──────────────
+[ 错误时间 ]: Sun Aug 29 16:56:13 2021
+[ 错误內容 ]: *Error in loading object '/cmds/std/help' 
+[ 错误档案 ]: /mudcore/system/daemons/command_d.c
+[ 错误行数 ]: 132
+[ 资料回溯 ]:
+    -- 第  1  笔 --
+        [ 触发对象 ]: /mudcore/system/object/user#1 ("哈哈(Test)")
+        [ 程序档案 ]: /mudcore/inherit/command.c
+        [ 函数名称 ]: command_hook(int)
+        [ 呼叫行数 ]: 38
+        [ 传入参数 ]:
+                   ** (int)0
+        [ 程序变量 ]:
+                   ** (string)"help"
+                   ** (object)/mudcore/system/object/user#1 ("哈哈(Test)")
+                   ** (int)0
+    -- 第  2  笔 --
+        [ 触发对象 ]: /mudcore/system/daemons/command_d
+        [ 程序档案 ]: /mudcore/system/daemons/command_d.c
+        [ 函数名称 ]: find_command(string)
+        [ 呼叫行数 ]: 132
+        [ 传入参数 ]:
+                   ** (string)"help"
+        [ 程序变量 ]:
+                   ** (int)0
+                   ** (array)({ /* sizeof() == 4 */
+                        "/cmds/std/",
+                        "/mudcore/cmds/player/",
+                        "/cmds/wiz/",
+                        "/mudcore/cmds/wizard/"
+                      })
+                   ** (mapping)([ /* sizeof() == 1 */
+                        "help" : "/cmds/std/help.c",
+                      ])
+                   ** (string)"/cmds/std/"
+──────────────<Bugs Report>──────────────
+([ /* sizeof() == 6 */
+  "file" : "/mudcore/system/daemons/command_d.c",
+  "line" : 132,
+  "program" : "/mudcore/system/daemons/command_d.c",
+  "trace" : ({ /* sizeof() == 2 */
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/inherit/command.c",
+        "function" : "command_hook",
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "line" : 38,
+        "program" : "/mudcore/inherit/command.c",
+        "locals" : ({ /* sizeof() == 3 */
+            "help",
+            /mudcore/system/object/user#1 ("哈哈(Test)"),
+            0
+          }),
+        "object" : /mudcore/system/object/user#1 ("哈哈(Test)"),
+      ]),
+      ([ /* sizeof() == 7 */
+        "file" : "/mudcore/system/daemons/command_d.c",
+        "function" : "find_command",
+        "arguments" : ({ /* sizeof() == 1 */
+            "help"
+          }),
+        "line" : 132,
+        "program" : "/mudcore/system/daemons/command_d.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            ({ /* sizeof() == 4 */
+              "/cmds/std/",
+              "/mudcore/cmds/player/",
+              "/cmds/wiz/",
+              "/mudcore/cmds/wizard/"
+            }),
+            ([ /* sizeof() == 1 */
+              "help" : "/cmds/std/help.c",
+            ]),
+            "/cmds/std/"
+          }),
+        "object" : /mudcore/system/daemons/command_d,
+      ])
+    }),
+  "error" : "*Error in loading object '/cmds/std/help'
+",
+  "object" : /mudcore/system/daemons/command_d,
+])

@@ -1,0 +1,32 @@
+/cmds/std/help.c line 13: Reserved type name unexpected. before file=COMMAND_D->find
+/cmds/std/help.c line 13: Missing type for argument before =COMMAND_D->find_com
+/cmds/std/help.c line 13: syntax error before COMMAND_D->find_comm
+/cmds/std/help.c line 13: Undefined variable 'arg' before )){
+/cmds/std/help.c line 13: Illegal LHS before ){
+/cmds/std/help.c line 13: syntax error before {
+/cmds/std/help.c line 13: Reserved type name unexpected. before file=COMMAND_D->find
+/cmds/std/help.c line 13: Missing type for argument before =COMMAND_D->find_com
+/cmds/std/help.c line 13: syntax error before COMMAND_D->find_comm
+/cmds/std/help.c line 13: Undefined variable 'arg' before )){
+/cmds/std/help.c line 13: Illegal LHS before ){
+/cmds/std/help.c line 13: syntax error before {
+/cmds/std/help.c line 13: Reserved type name unexpected. before file=COMMAND_D->find
+/cmds/std/help.c line 13: Missing type for argument before =COMMAND_D->find_com
+/cmds/std/help.c line 13: syntax error before COMMAND_D->find_comm
+/cmds/std/help.c line 13: Undefined variable 'arg' before )){
+/cmds/std/help.c line 13: Illegal LHS before ){
+/cmds/std/help.c line 13: syntax error before {
+/cmds/std/help.c line 24: End of file in text block at the end of the file
+/cmds/std/help.c line 24: syntax error at the end of the file
+/cmds/std/help.c line 24: End of file in text block at the end of the file
+/cmds/std/help.c line 24: syntax error at the end of the file
+/cmds/std/help.c line 31: End of file in text block at the end of the file
+/cmds/std/help.c line 31: syntax error at the end of the file
+/cmds/std/help.c line 31: End of file in text block at the end of the file
+/cmds/std/help.c line 31: syntax error at the end of the file
+/cmds/std/help.c line 26: End of file in text block at the end of the file
+/cmds/std/help.c line 26: syntax error at the end of the file
+/cmds/std/help.c line 29: End of file in text block at the end of the file
+/cmds/std/help.c line 29: syntax error at the end of the file
+/cmds/std/help.c line 29: End of file in text block at the end of the file
+/cmds/std/help.c line 29: syntax error at the end of the file
